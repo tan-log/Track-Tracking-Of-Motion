@@ -1,2 +1,11 @@
 # Track-Tracking-Of-Motion
- a mobile application based on LBS
+- 基于Swift语言开发一款原生LBS应用，该应用中能够记录设备的运动轨迹，以图形化的方式进行路径绘制。
+
+- 使用Core Location服务获得设备移动中的路径信息，在应用程序中考虑
+
+  - 能够平衡性能和功耗的问题，能够处理APP在前台和后台模式下，对定位要求的区别
+
+  - 能够处理APP运行中Core Location返回的错误信息
+
+- 使用MapKit服务以图形化的方式进行路径绘制
+  - 平衡性能和功耗的问题，能够处理APP在前台和后台模式下，对路径渲染的区别
